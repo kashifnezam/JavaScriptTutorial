@@ -15,7 +15,7 @@ let age = 20;
 age = 50; // but can reassign 
 console.log(age);
 const add = "India" //const must initialise, cant redefine and can't reassign 
-console.log(add);*/
+console.log(add);
 
 let a = 24;
 let b= 55;
@@ -25,3 +25,9 @@ if(a>=b){
 else{
   console.log("b greater than a");
 }
+
+##Terniary operator
+
+let age = 2;
+let k = age>=18 ? "You can vote " : "You are ineligible to vote";
+console.log(k);*/
