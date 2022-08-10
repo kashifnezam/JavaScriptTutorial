@@ -2,7 +2,7 @@
 we can use it to declare variable strictly
 console.log("Hello World");
 k = "ymh";
-console.log(k);*/
+console.log(k);
 // differce b/w var let const
 
 var name = "kuch";
@@ -15,4 +15,13 @@ let age = 20;
 age = 50; // but can reassign 
 console.log(age);
 const add = "India" //const must initialise, cant redefine and can't reassign 
-console.log(add);
+console.log(add);*/
+
+let a = 24;
+let b= 55;
+if(a>=b){
+  console.log("a greater than or equal to b");
+}
+else{
+  console.log("b greater than a");
+}
