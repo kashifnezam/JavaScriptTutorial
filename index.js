@@ -31,3 +31,27 @@ else{
 let age = 2;
 let k = age>=18 ? "You can vote " : "You are ineligible to vote";
 console.log(k);*/
+
+//Guess a number
+
+let b = (Math.floor(Math.random()*100));
+let count = 1;
+var msg = " ";
+while (count<=10){
+  let a = +(prompt(this.msg+ " Guess any number: " ));
+  console.log(a);
+  count+=1;
+if (a==b){
+  console.log("congo");
+  msg = "congratulations...";
+  exit;
+}
+else if(a>b){
+  console.log("Greater number");
+  msg = "Greater Number, ";
+}
+else{
+  console.log("Smaller number");
+  msg = "Smaller number, ";
+}
+}
