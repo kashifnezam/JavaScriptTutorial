@@ -54,7 +54,7 @@ else{
   console.log("Smaller number");
   msg = "Smaller number, ";
 }
-}*/
+}
 
 // Arrays---
 let mixed = ["apple", "pine", 23, null, undefined];
@@ -63,4 +63,16 @@ console.log(mixed);
 
 mixed2 = [...mixed, "Guava",66,"ymh"];
 mixed3 = ["Guava",66,"ymh", ...mixed];
-console.log(mixed2);
+console.log(mixed2);*/
+
+let animals = ["Cat", "Rat", "Lion", "Lizard", "Fish"];
+
+for (let i=0; i<animals.length; i++){
+  console.log(animals[i].toUpperCase());
+}
+
+let [a,b,c,...d] = animals;
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
