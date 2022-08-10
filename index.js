@@ -30,7 +30,7 @@ else{
 
 let age = 2;
 let k = age>=18 ? "You can vote " : "You are ineligible to vote";
-console.log(k);*/
+console.log(k);
 
 //Guess a number
 
@@ -54,4 +54,13 @@ else{
   console.log("Smaller number");
   msg = "Smaller number, ";
 }
-}
+}*/
+
+// Arrays---
+let mixed = ["apple", "pine", 23, null, undefined];
+mixed[2] = "ymh";
+console.log(mixed);
+
+mixed2 = [...mixed, "Guava",66,"ymh"];
+mixed3 = ["Guava",66,"ymh", ...mixed];
+console.log(mixed2);
