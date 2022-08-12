@@ -30,5 +30,5 @@ function indexArray(a,b){
   return "Not present";
 }
 const k = ["Hero", "mera", "tera", 22,33];
-console.log(indexArray(k,"33"));
+console.log(indexArray(k,22));
 
