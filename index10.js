@@ -16,3 +16,7 @@ const users = [
 const nUsers =users.find((i) => i.userId == 4);
 //--+++EveryMethod
 console.log(users.every(user => user.salary > 1000));
+
+// ----++++SomeMethod
+// it is used to atleast one matched result
+console.log(users.some(user => user.name == "Yahoo"));
