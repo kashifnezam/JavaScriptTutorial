@@ -1,9 +1,9 @@
 const num = [2,8,911,33,227,7,55,6];
-// sorting with increasing number 
+//sorting with increasing number 
 console.log(num.sort((a,b) => a-b));
 //to dublicate list
 const num1 = num.slice(3);
-console.log(num1);
+console.log(num);
 //find method
 const users = [
   {userId : 1, name: "YMH", salary: 12000},
@@ -26,6 +26,7 @@ num1.fill(0,3,4); //fill(value,start,end)
 console.log(num1);
 
 // Splice Method---> to delete and insert
-const num2 = num.splice(0)
-num2.splice(3,0,121);//(start,end,insert)
+const num2 = num.slice(0)
+const deleted_items = num2.splice(7,1,121);//(start,end,insert)
 console.log(num2);
+console.log(`deleted items: ${deleted_items}`);
