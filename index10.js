@@ -20,3 +20,12 @@ console.log(users.every(user => user.salary > 1000));
 // ----++++SomeMethod
 // it is used to atleast one matched result
 console.log(users.some(user => user.name == "Yahoo"));
+
+// Fill Method 
+num1.fill(0,3,4); //fill(value,start,end)
+console.log(num1);
+
+// Splice Method---> to delete and insert
+const num2 = num.splice(0)
+num2.splice(3,0,121);//(start,end,insert)
+console.log(num2);
