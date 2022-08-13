@@ -6,11 +6,13 @@ const num1 = num.slice(3);
 console.log(num1);
 //find method
 const users = [
-  {userId : 1, name: "YMH"},
-  {userId : 2, name: "Shama"},
-  {userId : 3, name: "Yahoo"},
-  {userId : 4, name: "Sheela"}
+  {userId : 1, name: "YMH", salary: 12000},
+  {userId : 2, name: "Shama",salary: 12000},
+  {userId : 3, name: "Yahoo",salary: 12000},
+  {userId : 4, name: "Sheela",salary: 12000},
+  {userId : 5, name: "Shea",salary: 8000},
   ];
   
 const nUsers =users.find((i) => i.userId == 4);
-console.log(nUsers);
+//--+++EveryMethod
+console.log(users.every(user => user.salary > 1000));
