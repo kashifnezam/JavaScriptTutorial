@@ -10,6 +10,7 @@ createUser.prototype.about = function () {
   return `This is ${this.firstName} ${this.LastName}, his/her age is ${this.Age}
   and Address is ${this.Address}`};
 function createUser (firstName, LastName, Age, Address){
+  console.log(arguments);
   this.firstName = firstName;
   this.LastName = LastName;
   this.Age = Age;
